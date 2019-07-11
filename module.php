@@ -9,6 +9,8 @@ use yii\web\ForbiddenHttpException;
  */
 class module extends \yii\base\Module
 {
+    const VERSION = '1';
+
     /**
      * {@inheritdoc}
      */

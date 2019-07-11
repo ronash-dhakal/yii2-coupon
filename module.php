@@ -14,7 +14,7 @@ class module extends \yii\base\Module
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'app\modules\coupon\controllers';
+    public $controllerNamespace = 'ronash\coupon\controllers';
     public $layout = '@app/modules/backend/views/layouts/main';
 
 

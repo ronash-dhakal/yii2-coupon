@@ -25,7 +25,11 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, add following code to config module  :
 
 ```php
-<?= \ronash\coupon\AutoloadExample::widget(); ?>```
+<?= [
+     'coupon' => [
+            'class' => 'ronash\coupon\module',
+        ],
+] ?>```

@@ -32,6 +32,26 @@ or add
 
 to the require section of your `composer.json` file.
 
+Database
+------
+```
+CREATE TABLE `coupon` (
+  `id` int(11) NOT NULL,
+  `name` varchar(200) NOT NULL,
+  `expire_on` date NOT NULL,
+  `current_use` int(11) NOT NULL DEFAULT '0',
+  `total_use` int(11) NOT NULL DEFAULT '0',
+  `description` varchar(255) DEFAULT NULL,
+  `active` tinyint(4) NOT NULL DEFAULT '1',
+  `public` tinyint(4) NOT NULL DEFAULT '1',
+  `has_condition` tinyint(4) NOT NULL DEFAULT '0',
+  `filter_by` varchar(50) DEFAULT NULL,
+  `min_price` double DEFAULT NULL,
+  `max_price` double DEFAULT NULL,
+  `discount` float NOT NULL,
+  `products` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
 
 Usage
 -----

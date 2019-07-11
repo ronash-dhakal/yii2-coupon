@@ -2,6 +2,7 @@
     "name": "ronash-dhakal/yii2-coupon",
     "description": "Discount Coupon Yii2",
     "type": "yii2-extension",
+    "version": "1.0.0",
     "keywords": ["yii2","extension"],
     "license": "MIT",
     "minimum-stability": "dev",

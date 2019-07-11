@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-\app\modules\coupon\CouponAsset::register($this);
+\ronash\coupon\CouponAsset::register($this);
 /* @var $this yii\web\View */
 /* @var $model app\models\Coupon */
 /* @var $form yii\widgets\ActiveForm */

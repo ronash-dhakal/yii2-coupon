@@ -4,6 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Ronash Dhakal",

@@ -2,6 +2,17 @@ Coupon Exention
 ===============
 Discount Coupon Yii2
 
+****
+In Active Development.  
+
++++
+TODO
++++
+1) DB Migration
+2) Products Model Mapping
+
+****
+
 Installation
 ------------
 
@@ -10,13 +21,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist ronash/yii2-coupon "*"
+php composer.phar require --prefer-dist ronash-dhakal/yii2-coupon "*"
 ```
 
 or add
 
 ```
-"ronash/yii2-coupon": "*"
+"ronash-dhakal/yii2-coupon": "*"
 ```
 
 to the require section of your `composer.json` file.

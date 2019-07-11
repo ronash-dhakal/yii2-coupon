@@ -18,11 +18,10 @@ use yii\web\AssetBundle;
  */
 class CouponAsset extends AssetBundle
 {
-    public $sourcePath = '@app/modules/coupon/assets';
+    public $sourcePath = '@ronash/coupon/assets';
     public $baseUrl = '@web';
     public $css = [
-'coupon.css'
-
+      'coupon.css'
     ];
     public $js = [
         'coupon.js'
@@ -30,7 +29,6 @@ class CouponAsset extends AssetBundle
 
     public $depends = [
         'yii\web\YiiAsset',
-        'app\assets\NotyAsset'
-
+        'ronash\coupon\NotyAsset'
     ];
 }
